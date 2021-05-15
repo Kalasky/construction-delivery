@@ -56,13 +56,7 @@ function App() {
             >
               <img src={delivery} alt="Delivery svg" className="samedayImg" />
             </Col>
-            <Col
-              lg={6}
-              md={6}
-              sm={12}
-              style={{ margin: "auto" }}
-              className="samedayCol"
-            >
+            <Col lg={6} md={6} sm={12} className="samedayCol">
               <h1
                 className="samedayHeader"
                 style={{ textAlign: "left", fontWeight: "bold" }}
@@ -95,7 +89,6 @@ function App() {
               md={6}
               sm={{ order: 2, span: 12 }}
               xs={{ order: 2, span: 12 }}
-              style={{ margin: "auto" }}
               className="nocompCol"
             >
               <h1

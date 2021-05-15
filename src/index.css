@@ -16,9 +16,158 @@ body {
   color: white;
 }
 
+:root {
+  --dark-color: #654ea3;
+  --light-color: #eaafc8;
+  --order: 1;
+  --order: 2;
+  --order: 3;
+  --order: 4;
+  --order: 5;
+  --order: 6;
+}
+
+#darkGroup {
+  fill: var(--dark-color);
+}
+
+#lightGroup {
+  fill: var(--light-color);
+}
+
+#light1,
+#light2,
+#dark1 {
+  transition: all 1s ease;
+}
+
+/* Moving element off screen entirely before animation starts */
+#light2 {
+  transform: translateX(-100%);
+}
+
+svg:hover #light1 {
+  transform: translateX(20%);
+}
+
+svg:hover #dark1 {
+  transform: translateX(40%);
+  /* opacity set to 0 for fade out effect */
+  opacity: 0;
+}
+
+svg:hover #light2 {
+  /* moving element back into the screen */
+  transform: translateX(0%);
+}
+
+#skeletonLeft,
+#skeletonRight {
+  animation: fadeInUp 1s;
+}
+
+#skeletonMiddle {
+  animation: fadeInUp 2s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#check1_3,
+#check2_3,
+#check3_3,
+#check1,
+#check2,
+#check3,
+#check4,
+#check5 {
+  opacity: 0;
+  /* forwards: apply style from last keyframe */
+  animation: dropIn 8s ease forwards;
+  animation-delay: calc(var(--order) * 200ms);
+}
+
+#check1_2,
+#check2_2,
+#check3_2,
+#check4_2,
+#check5_2,
+#check6 {
+  opacity: 0;
+  /* forwards: apply style from last keyframe */
+  animation: dropIn 9s ease forwards;
+  animation-delay: calc(var(--order) * 200ms);
+}
+
+/* Left and right card order values */
+#check1,
+#check1_3 {
+  --order: 1;
+}
+#check2,
+#check2_3 {
+  --order: 2;
+}
+#check3,
+#check3_3 {
+  --order: 3;
+}
+#check4 {
+  --order: 4;
+}
+#check5 {
+  --order: 5;
+}
+
+/* Middle card order values */
+#check1_2 {
+  --order: 1;
+}
+#check2_2 {
+  --order: 2;
+}
+#check3_2 {
+  --order: 3;
+}
+#check4_2 {
+  --order: 4;
+}
+#check5_2 {
+  --order: 5;
+}
+#check6 {
+  --order: 6;
+}
+
+@keyframes dropIn {
+  20% {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+
+  30%,
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.samedayCol,
+.nocompCol {
+  margin: auto;
 }
 
 .footer {
@@ -295,4 +444,72 @@ code {
     width: 240px;
     font-size: 18px;
   }
+}
+
+/* Premium page */
+.cardLeft,
+.cardRight {
+  height: 500px;
+  /* width: 240px; */
+}
+
+.cardMiddle {
+  height: 600px;
+  /* width: 300px; */
+}
+.premiumApp {
+  background: #654ea3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #eaafc8,
+    #654ea3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #eaafc8,
+    #654ea3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.whygoContainer {
+  padding: 0;
+  max-width: 100%;
+  background-color: white;
+}
+
+.samedayRow.premiumcardRow {
+  margin-top: 0;
+  padding: 150px 150px 0px;
+}
+
+.offerContainer.premiumContainer {
+  background-color: #eaafc8;
+}
+
+.premiumTitle {
+  font-weight: 600;
+  font-size: 4.5rem;
+  text-align: left;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.headerPremiumButton {
+  border-radius: 25px;
+  padding: 10px 50px;
+  float: left;
+  background-color: #654ea3;
+  border-color: #654ea3;
+}
+.headerPremiumButton.btn-primary:hover {
+  background-color: #503e82;
+  border-color: #503e82;
+}
+.headerPremiumButton.btn-primary:focus {
+  background-color: #654ea3;
+  border-color: #654ea3;
+}
+.headerPremiumButton.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #483775;
+  border-color: #483775;
 }
