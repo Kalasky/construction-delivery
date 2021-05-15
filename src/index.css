@@ -494,6 +494,7 @@ code {
   margin-bottom: 1.5rem;
 }
 
+/* Premium header button styling */
 .headerPremiumButton {
   border-radius: 25px;
   padding: 10px 50px;
@@ -512,4 +513,61 @@ code {
 .headerPremiumButton.btn-primary:not(:disabled):not(.disabled):active {
   background-color: #483775;
   border-color: #483775;
+}
+
+/* default row height contains too much blank spance --> with svg wave */
+.premiumHeaderRow {
+  height: 19.375em;
+}
+
+.premiumHeaderPara {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .premiumHeaderRow {
+    height: auto;
+    padding-top: 10em;
+  }
+  .premiumTitle,
+  .premiumHeaderPara,
+  .headerContent,
+  .headerPremiumButton {
+    text-align: center;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .premiumHeaderRow {
+    height: auto;
+    padding-top: 7em;
+  }
+}
+
+.premiumHeaderContainer {
+  max-width: 1400px;
+}
+
+.premiumHeaderCol1 {
+  margin: auto;
+  padding: 4em 4em;
+}
+
+@media only screen and (max-width: 992px) {
+  .premiumHeaderContainer {
+    max-width: 720px;
+  }
+  /* Premium header content is too close too nav on larger dimensions (reason for default top 4em) */
+  .premiumHeaderCol1 {
+    margin: auto;
+    padding: 0em;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .premiumHeaderPara {
+    padding: 0em 3em;
+  }
 }

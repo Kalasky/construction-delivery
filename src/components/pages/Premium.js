@@ -7,27 +7,17 @@ import Fade from "react-reveal/Fade";
 function Premium() {
   return (
     <div className="App premiumApp">
-      <Container>
-        <Row
-          style={{
-            paddingTop: "130px",
-          }}
-        >
-          <Col lg={6} md={6} sm={12}>
+      <Container className="premiumHeaderContainer">
+        <Row className="premiumHeaderRow">
+          <Col lg={5} md={12} sm={12} className="premiumHeaderCol1">
             <div
-              className="landingHeader"
+              className="headerContent"
               style={{
                 margin: "auto",
               }}
             >
               <h1 className="premiumTitle">Premium</h1>
-              <p
-                style={{
-                  fontSize: "20px",
-                  textAlign: "left",
-                  marginBottom: "2rem",
-                }}
-              >
+              <p className="premiumHeaderPara">
                 Get an enhanced Supply Me Now experience. Exclusive benefits,
                 free delivery on orders over $10, special offers just for
                 members and more.
@@ -39,7 +29,7 @@ function Premium() {
               </Link>
             </div>
           </Col>
-          <Col lg={6} md={6} sm={12} style={{ margin: "auto" }}>
+          <Col lg={7} md={12} sm={12} style={{ margin: "auto" }}>
             {/* <svg
               width="120"
               height="100"
@@ -75,8 +65,8 @@ function Premium() {
               </defs>
             </svg> */}
             <svg
-              width="300"
-              height="200"
+              width="100%"
+              height="100%"
               viewBox="0 0 300 200"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -405,7 +395,7 @@ function Premium() {
           </Col>
         </Row>
       </Container>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
         <path
           fill="#ffffff"
           fillOpacity="1"
@@ -440,7 +430,7 @@ function Premium() {
             </Col>
           </Row>
         </Fade>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
           <path
             fill="#eaafc8"
             fillOpacity="1"
