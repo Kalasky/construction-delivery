@@ -25,7 +25,7 @@ function Premium() {
               <h1 className="premiumTitle">Premium</h1>
               <p className="premiumHeaderPara">
                 Get an enhanced Supply Me Now experience. Exclusive benefits,
-                free delivery on orders over $10, special offers just for
+                free delivery on orders over $12, special offers just for
                 members and more.
               </p>
               <Link to="/premium">
@@ -501,72 +501,70 @@ function Premium() {
                         Subscribe
                       </Button>
 
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={cross}
-                          alt="cross"
-                        />
-                        <span className="text-muted">
-                          ratione officia eligendi est
-                        </span>
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={cross}
-                          alt="cross"
-                        />
-                        <span className="text-muted">
-                          ratione officia eligendi est
-                        </span>
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={cross}
-                          alt="cross"
-                        />
-                        <span className="text-muted">
-                          ratione officia eligendi est
-                        </span>
-                      </Card.Text>
+                      <div style={{ textAlign: "left" }}>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          Virtual badge
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          Reduced fees
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          Exclusive Discounts
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={cross}
+                            alt="cross"
+                          />
+                          <span className="text-muted">
+                            24/7 premium support
+                          </span>
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={cross}
+                            alt="cross"
+                          />
+                          <span className="text-muted">Special offers</span>
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={cross}
+                            alt="cross"
+                          />
+                          <span className="text-muted">Priority listing</span>
+                        </Card.Text>
+                      </div>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -592,66 +590,68 @@ function Premium() {
                       <Button size="md" className="shadow plan-button">
                         Subscribe
                       </Button>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
+                      <div style={{ textAlign: "left" }}>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          Virtual badge
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          Reduced fees
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          Exclusive Discounts
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          24/7 premium support
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          Special offers
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          <span>Priority listing</span>
+                        </Card.Text>
+                      </div>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -674,68 +674,68 @@ function Premium() {
                       <Button size="md" className="shadow plan-button">
                         Subscribe
                       </Button>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={checkmark}
-                          alt="checkmark"
-                        />
-                        ratione officia eligendi est
-                      </Card.Text>
-                      <Card.Text>
-                        <img
-                          width={16}
-                          height={16}
-                          className="mr-3"
-                          src={cross}
-                          alt="cross"
-                        />
-                        <span className="text-muted">
-                          ratione officia eligendi est
-                        </span>
-                      </Card.Text>
+                      <div style={{ textAlign: "left" }}>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          Virtual badge
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          Reduced fees
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          Exclusive Discounts
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          24/7 premium support
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={checkmark}
+                            alt="checkmark"
+                          />
+                          Special offers
+                        </Card.Text>
+                        <Card.Text>
+                          <img
+                            width={16}
+                            height={16}
+                            className="mr-3"
+                            src={cross}
+                            alt="cross"
+                          />
+                          <span className="text-muted">Priority listing</span>
+                        </Card.Text>
+                      </div>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -793,8 +793,7 @@ function Premium() {
                       <Card.Title>How does priority listing work?</Card.Title>
                       <Card.Text>
                         When a Premium member requests a delivery, your listing
-                        will display on top of all non-premium members at the
-                        time of purchase.
+                        will display on top skipping the virtual line!
                       </Card.Text>
                       <svg
                         width="200"

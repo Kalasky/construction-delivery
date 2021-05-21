@@ -711,6 +711,7 @@ code {
 
 .premium-card-body {
   line-height: 2.5rem;
+  margin: auto;
 }
 
 .faq-cards {
