@@ -64,9 +64,8 @@ function App() {
                 Same day delivery? No problem.
               </h1>
               <p className="samedayPara">
-                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
+                Get your contruction parts, tools, etc. under 1 hour. We strive
+                to make your wait times as low as possible at all times.
               </p>
             </Col>
           </Row>
@@ -98,9 +97,9 @@ function App() {
                 Not at your computer?
               </h1>
               <p className="nocompPara">
-                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
+                If you're not at your desk or near a laptop you can download our
+                app in the app store or google play! Just a few taps away from
+                your next order.
               </p>
             </Col>
             <Col
@@ -139,7 +138,12 @@ function App() {
           </Row>
           <Row>
             <CardDeck className="cardDeck">
-              <Col lg={{ span: 4 }} md={{ span: 6 }} sm={{ span: 12 }}>
+              <Col
+                lg={{ span: 4 }}
+                md={{ span: 6 }}
+                sm={{ span: 12 }}
+                className="support-card-col"
+              >
                 <Card
                   style={{ backgroundColor: "#36393f" }}
                   className="hvr-float shadow cardsHome"
@@ -147,13 +151,20 @@ function App() {
                   <Card.Body>
                     <Card.Title>24/7 Support</Card.Title>
                     <Card.Text>
-                      cupidatat non proident, sunt in culpa qui officia deserunt
-                      mollit anim id est laborum.
+                      Supply Me Now is here to help every hour and everyday.
+                      Discover our office locations and different ways to
+                      contact us so that we can provide you with the support you
+                      need.
                     </Card.Text>
                   </Card.Body>
                 </Card>
               </Col>
-              <Col lg={{ span: 4 }} md={{ span: 6 }} sm={{ span: 12 }}>
+              <Col
+                lg={{ span: 4 }}
+                md={{ span: 6 }}
+                sm={{ span: 12 }}
+                className="delivery-tracking-card-col"
+              >
                 <Card
                   style={{ backgroundColor: "#36393f" }}
                   className="hvr-float shadow cardsHome"
@@ -161,8 +172,8 @@ function App() {
                   <Card.Body>
                     <Card.Title>Delivery Tracking</Card.Title>
                     <Card.Text>
-                      cupidatat non proident, sunt in culpa qui officia deserunt
-                      mollit anim id est laborum.
+                      When making an order you'll be able to track your package
+                      while in transit and get an estimated time of arrival.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -171,7 +182,7 @@ function App() {
                 lg={{ span: 4 }}
                 md={{ span: 12, offset: 0 }}
                 sm={{ span: 12 }}
-                className="storeVarietyCard"
+                className="store-variety-card-col"
               >
                 <Card
                   style={{ backgroundColor: "#36393f" }}
@@ -180,8 +191,8 @@ function App() {
                   <Card.Body>
                     <Card.Title>Store Variety</Card.Title>
                     <Card.Text>
-                      cupidatat non proident, sunt in culpa qui officia deserunt
-                      mollit anim id est laborum.
+                      We provide you with a wide array of construction stores in
+                      the United States.
                     </Card.Text>
                   </Card.Body>
                 </Card>

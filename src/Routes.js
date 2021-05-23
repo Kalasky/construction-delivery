@@ -4,7 +4,7 @@ import App from "./App";
 import Footer from "./Footer";
 import Header from "./Header";
 import Premium from "./components/pages/Premium";
-import Contact from "./components/pages/Contact";
+// import Contact from "./components/pages/Contact";
 
 const Routes = () => {
   return (
@@ -13,7 +13,7 @@ const Routes = () => {
       <Switch>
         <Route path="/" exact component={App} />
         <Route path="/premium" exact component={Premium} />
-        <Route path="/contact" exact component={Contact} />
+        {/* <Route path="/contact" exact component={Contact} /> */}
       </Switch>
       <Footer />
     </BrowserRouter>

@@ -393,6 +393,11 @@ code {
 @media only screen and (max-width: 992px) {
   .cardsHome {
     width: 20rem;
+  }
+
+  .store-variety-card-col,
+  .support-card-col,
+  .delivery-tracking-card-col {
     margin-top: 3rem;
   }
 }
@@ -419,7 +424,6 @@ code {
 @media only screen and (max-width: 320px) {
   .cardsHome {
     width: 16rem;
-    margin-top: 3rem;
   }
   .offerHeader {
     text-align: center;
@@ -544,8 +548,8 @@ code {
   margin-bottom: 1.5rem;
 }
 .plan-button.btn-primary:hover {
-  background-color: #503e82;
-  border-color: #503e82;
+  background-color: #564fcc;
+  border-color: #564fcc;
 }
 .plan-button.btn-primary:focus {
   background-color: #6c63ff;
@@ -770,6 +774,9 @@ code {
 .card-fee-faq {
   height: 100%;
   width: 100%;
+}
+.hvr-float.shadow.cardsHome.card {
+  height: 100%;
 }
 
 @media only screen and (max-width: 992px) {
