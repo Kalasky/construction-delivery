@@ -629,6 +629,7 @@ code {
 .whats-included-col2,
 .whats-included-col3 {
   padding: 0px 10%;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
