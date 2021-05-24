@@ -10,11 +10,11 @@ const Header = () => {
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/premium">Premium</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
+          {/* <Nav.Link href="/contact">Contact</Nav.Link> */}
         </Nav>
-        <Nav>
+        {/* <Nav>
           <Nav.Link href="#deets">Social</Nav.Link>
-        </Nav>
+        </Nav> */}
       </Navbar.Collapse>
     </Navbar>
   );
