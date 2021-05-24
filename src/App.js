@@ -64,9 +64,8 @@ function App() {
                 Same day delivery? No problem.
               </h1>
               <p className="samedayPara">
-                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
+                Get your items delivered same day within the hour. We also offer
+                scheduled deliveries that can be in a few hours or the next day.
               </p>
             </Col>
           </Row>
@@ -98,9 +97,9 @@ function App() {
                 Not at your computer?
               </h1>
               <p className="nocompPara">
-                in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
+                If you're not at your personal computer you can use our app!
+                Seamlessly order items and track deliveries from your mobile
+                device.
               </p>
             </Col>
             <Col
@@ -147,8 +146,9 @@ function App() {
                   <Card.Body>
                     <Card.Title>24/7 Support</Card.Title>
                     <Card.Text>
-                      cupidatat non proident, sunt in culpa qui officia deserunt
-                      mollit anim id est laborum.
+                      We off 24/7 support for premium members. If you are
+                      experiencing difficulties our support team will try to get
+                      it resolved as soon as possible, any time and hour.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -161,8 +161,8 @@ function App() {
                   <Card.Body>
                     <Card.Title>Delivery Tracking</Card.Title>
                     <Card.Text>
-                      cupidatat non proident, sunt in culpa qui officia deserunt
-                      mollit anim id est laborum.
+                      Users can track their driver mid transit and recieve real
+                      time time of arrival estimations.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -180,8 +180,9 @@ function App() {
                   <Card.Body>
                     <Card.Title>Store Variety</Card.Title>
                     <Card.Text>
-                      cupidatat non proident, sunt in culpa qui officia deserunt
-                      mollit anim id est laborum.
+                      Pick from a variety of stores located near you. We're not
+                      limited to a couple stores, there's a wide array of
+                      options for you to choose from.
                     </Card.Text>
                   </Card.Body>
                 </Card>

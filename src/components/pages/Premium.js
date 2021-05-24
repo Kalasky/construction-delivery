@@ -857,7 +857,7 @@ function Premium() {
                       <Card.Title>What type of special offers?</Card.Title>
                       <Card.Text>
                         You will recieve special access to promo codes of $10 or
-                        more, exclusive access to giveaways wihch can include
+                        more, exclusive access to giveaways which can include
                         free snacks, tickets to local concerts, and more!
                       </Card.Text>
                       <img src={offers_faq} alt="checkmark" />
