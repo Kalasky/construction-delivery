@@ -778,6 +778,7 @@ code {
     margin-top: 3rem;
   }
 }
+
 @media only screen and (max-width: 768px) {
   .hvr-float.shadow.card-offers-faq.card,
   .hvr-float.shadow.card-priority-faq.card,
@@ -789,10 +790,21 @@ code {
     margin-top: 3rem;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .hvr-float.shadow.card-offers-faq.card,
   .hvr-float.shadow.card-priority-faq.card,
   .hvr-float.shadow.card-fee-faq.card {
     max-width: 100%;
   }
+}
+
+.nav-tab {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-tab:hover {
+  color: #a9a9a9;
+  text-decoration: none;
 }
